@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7U1Ir3j1kTIAL0YHtaDM">
+    <mxGraphModel dx="860" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ppTY4uEujdAI-B4sug-b-17" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;STUDENT_ACCOUNT&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;registration_number : str&lt;br&gt;daily_spending_limit :float&lt;br&gt;__balance: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;__ transaction_pin : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;deposit(amount : float)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;make_payment(amount,service)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;get_balance():float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;set_pin(old_pin , new_pin)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="180" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-18" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" x="480" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-20" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;TRANSACTION&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;transaction_id : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;reg_number : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;transaction_type : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;amount : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;service_name : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;remaining_balance : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;get_formatted_record() : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="180" x="480" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-21" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" x="480" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-26" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;CAMPUSSERVICE&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;service_id : str&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;service_name : str&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;cost : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;process_service(account): bool&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="180" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-27" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" x="100" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.022;entryY=0.358;entryDx=0;entryDy=0;entryPerimeter=0;" target="ppTY4uEujdAI-B4sug-b-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="245" y="108" as="sourcePoint" />
+            <mxPoint x="410" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-29" edge="1" parent="1" source="ppTY4uEujdAI-B4sug-b-20" style="endArrow=none;html=1;rounded=0;entryX=0.467;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.467;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="ppTY4uEujdAI-B4sug-b-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="564.06" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-30" edge="1" parent="1" source="ppTY4uEujdAI-B4sug-b-26" style="endArrow=none;html=1;rounded=0;exitX=1.017;exitY=0.444;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" target="ppTY4uEujdAI-B4sug-b-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="340" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="40" x="260" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="50" x="430" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="owns" vertex="1">
+          <mxGeometry height="50" width="60" x="340" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="20" width="40" x="560" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="o" vertex="1">
+          <mxGeometry height="20" width="60" x="550" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="records" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="50" x="270" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="generates" vertex="1">
+          <mxGeometry height="20" width="100" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UML CLASS DIAGRAM" vertex="1">
+          <mxGeometry height="30" width="210" x="260" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-41" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;STUDENT&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;student_name : str&lt;br&gt;registration_number : str&lt;br&gt;programme : str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;display_student_info()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="125" width="160" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ppTY4uEujdAI-B4sug-b-42" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" x="90" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
